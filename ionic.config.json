@@ -1,0 +1,8 @@
+{
+  "name": "Bevent",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
