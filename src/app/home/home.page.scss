@@ -1,42 +1,56 @@
 /* 
+#A8D0E6
 #374785
 #24305E
 #F76C6C
+#F8E9A1
 */
+div {
+  font-family: "Gill sans";
+}
 
 #container {
   text-align: center;
-  background-color: #a8d0e6;
+  background-color: white;
   height: 100vh;
 }
 
 #sub-container {
   margin: 0 auto;
-  padding-top: 30vw
+  padding-top: 50vw;
 }
 
 .logo {
   font-size: 13vw;
   color: #374785;
-  font-family: "Gill sans";
-  font-style: italic
+  font-style: italic;
 }
 
 .sub-logo {
   font-size: 6vw;
-  color: purple;
-  font-family: "Gill sans";
-  font-style: italic
+  color: #374785;
+  font-style: italic;
 }
 
-#button {
-  background-color: #E3E1B8; 
-  padding: 2px 4px;
-  font: 13px sans-serif;
-  text-decoration: none;
-  border: 1px solid #000;
-  border-color: #aaa #444 #444 #aaa;
-  color: #000
+.loginbtn {
+  --background: #f76c6c;
+  --background-activated:  #f76c6c;
+  width: 70vw;
+  font-weight: bold;
+  --border-radius: 5vw;
+  height: 6vh
 }
 
-#button:hover { background-color: #46000D; }
+.regbtn {
+  --background: white;
+  --background-activated: white;
+  --color-activated:#24305E;
+  --color: #24305E;
+  width: 70vw;
+  font-weight: bold;
+  --border-radius: 5vw;
+  --border-color: #24305E;
+  --border-style: solid;
+  --border-width: 0.3vw;
+  height: 6vh
+}
